@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-show-proxy",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "pnpm@7.2.1",
   "description": "show vite proxy when running in dev mode",
   "author": "yuyinws",
@@ -16,7 +16,7 @@
   "sideEffects": false,
   "exports": {
     ".": {
-      "require": "./dist/index.js",
+      "require": "./dist/index.cjs",
       "import": "./dist/index.mjs"
     }
   },
