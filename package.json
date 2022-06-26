@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-show-proxy",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "packageManager": "pnpm@7.2.1",
   "description": "show vite proxy when running in dev mode",
   "author": "yuyinws",
