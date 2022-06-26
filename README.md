@@ -4,15 +4,15 @@
 
 # Usage
 vite.config.ts
-```diff
+```ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-+ import ShowProxy from 'vite-plugin-show-proxy'
+import ShowProxy from 'vite-plugin-show-proxy'
 
 export default defineConfig({
   plugins: [
     vue(),
-+   ShowProxy(),
+    ShowProxy(),
   ],
   server: {
     proxy: {
