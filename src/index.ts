@@ -1,7 +1,7 @@
 import type { Plugin } from 'vite'
-import { cyan, yellow } from 'kolorist'
+import { blue, cyan, yellow } from 'kolorist'
 
-export type Proxy = Record<string, string>
+type Proxy = Record<string, string>
 
 export default function ShowProxy(): Plugin {
   const proxy: Proxy[] = []
@@ -26,7 +26,7 @@ export default function ShowProxy(): Plugin {
       server.httpServer?.once('listening', () => {
         setTimeout(() => {
           // eslint-disable-next-line no-console
-          console.log('  >Show Proxy:')
+          console.log(`${blue('  >Show Proxy:')}`)
           for (const item of proxy) {
             for (const key in item) {
               // eslint-disable-next-line no-console
