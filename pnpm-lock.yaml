@@ -6,21 +6,22 @@ importers:
     specifiers:
       '@antfu/eslint-config': ^0.25.1
       '@antfu/ni': ^0.16.2
-      '@antfu/utils': ^0.5.2
       '@types/node': ^18.0.0
       bumpp: ^8.2.1
       eslint: ^8.18.0
       esno: ^0.16.3
+      kolorist: ^1.5.1
       pnpm: ^7.2.1
       rimraf: ^3.0.2
       typescript: ^4.7.4
       unbuild: ^0.7.4
       vite: ^2.9.12
       vitest: ^0.15.1
+    dependencies:
+      kolorist: 1.5.1
     devDependencies:
       '@antfu/eslint-config': 0.25.1_b5e7v2qnwxfo6hmiq56u52mz3e
       '@antfu/ni': 0.16.2
-      '@antfu/utils': 0.5.2
       '@types/node': 18.0.0
       bumpp: 8.2.1
       eslint: 8.18.0
@@ -146,10 +147,6 @@ packages:
   /@antfu/ni/0.16.2:
     resolution: {integrity: sha512-HZH4I07EYKU4KZLtUYm/zEmaDIhaq51H/qu45uH1AcUPWqMGbB7evE/TnSr0SGInEA+oQs4Is5Vn/PmQhfuU5w==}
     hasBin: true
-    dev: true
-
-  /@antfu/utils/0.5.2:
-    resolution: {integrity: sha512-CQkeV+oJxUazwjlHD0/3ZD08QWKuGQkhnrKo3e6ly5pd48VUpXbb77q0xMU4+vc2CkJnDS02Eq/M9ugyX20XZA==}
     dev: true
 
   /@babel/code-frame/7.16.7:
@@ -2475,6 +2472,10 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
+  /kolorist/1.5.1:
+    resolution: {integrity: sha512-lxpCM3HTvquGxKGzHeknB/sUjuVoUElLlfYnXZT73K8geR9jQbroGlSCFBax9/0mpGoD3kzcMLnOlGQPJJNyqQ==}
+    dev: false
+
   /levn/0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
@@ -3248,7 +3249,7 @@ packages:
     dev: true
 
   /to-fast-properties/2.0.0:
-    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
+    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
     dev: true
 
